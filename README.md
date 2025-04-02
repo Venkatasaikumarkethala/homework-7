@@ -6,7 +6,7 @@
 
 
 ## Log of QR Code Creation
-![temp temp](qr_codes/logs.png)
+![Log Screenshot](qr_codes/logs.png)
 
 ```bash
 (venv) @Venkatasaikumarkethala ➜ /workspaces/homework7 (main) $ docker run --rm --name qr-generator   -e QR_CODE_DIR='qr_codes'   -e FILL_COLOR='blue'   -e BACK_COLOR='yellow'   my-qr-app
